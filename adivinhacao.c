@@ -29,6 +29,7 @@ int main()
 		if (acertou)
 		{
 			printf("Parabéns! Você acertou!\n");
+			break;
 		}
 		else
 		{
