@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define NUMERO_MAXIMO_TENTATIVAS 5
+
 int main()
 {
 	// Imprime o cabeçalho do nosso jogo
@@ -11,10 +13,10 @@ int main()
 	int numeroSecreto = 42;
 
 	// Recebendo os chutes do usuário
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < NUMERO_MAXIMO_TENTATIVAS; i++)
 	{
 		// Imprimindo a tentativa
-		printf("Tentativa %d de 3\n", i + 1);
+		printf("Tentativa %d de %d\n", i + 1, NUMERO_MAXIMO_TENTATIVAS);
 
 		// Obtendo o chute do usuário
 		printf("Qual é o seu chute? ");
