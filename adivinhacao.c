@@ -28,23 +28,20 @@ int main()
 
 		// Mostrando se o usuário acertou
 		int acertou = (chute == numeroSecreto);
+		int maior = (chute > numeroSecreto);
+
 		if (acertou)
 		{
 			printf("Parabéns! Você acertou!\n");
 			break;
 		}
-		else
+		else if (maior)
 		{
-			// Dando dica ao usuário
-			int maior = (chute > numeroSecreto);
-			if (maior)
-			{
-				printf("Seu chute foi maior que o número secreto\n");
-			}
-			else
-			{
-				printf("Seu chute foi menor que o número secreto\n");
-			}
+			printf("Seu chute foi maior que o número secreto\n");
+		}
+		else
+		{	
+			printf("Seu chute foi menor que o número secreto\n");
 		}
 	}
 
