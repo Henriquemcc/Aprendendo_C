@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-#define NUMERO_MAXIMO_TENTATIVAS 5
+#include <stdio.h>S
 
 int main()
 {
@@ -13,10 +11,11 @@ int main()
 	int numeroSecreto = 42;
 
 	// Recebendo os chutes do usuário
-	for (int i = 0; i < NUMERO_MAXIMO_TENTATIVAS; i++)
+	int tentativa = 0;
+	while(1)
 	{
 		// Imprimindo a tentativa
-		printf("Tentativa %d de %d\n", i + 1, NUMERO_MAXIMO_TENTATIVAS);
+		printf("Tentativa %d\n.", tentativa + 1);
 
 		// Obtendo o chute do usuário
 		printf("Qual é o seu chute? ");
@@ -24,12 +23,11 @@ int main()
 		scanf("%d", &chute);
 
 		// Mostrando ao usuário o seu chute
-		printf("Seu chute foi %d\n", chute);
+		printf("Seu chute foi %d.\n", chute);
 
 		if (chute < 0)
 		{
 			printf("Você não pode chutar números negativos.\n");
-			i--;
 			continue;
 		}
 
@@ -44,14 +42,17 @@ int main()
 		}
 		else if (maior)
 		{
-			printf("Seu chute foi maior que o número secreto\n");
+			printf("Seu chute foi maior que o número secreto.\n");
 		}
 		else
 		{	
-			printf("Seu chute foi menor que o número secreto\n");
+			printf("Seu chute foi menor que o número secreto.\n");
 		}
+
+		tentativa++;
 	}
 
 	// Fim de jogo
-	printf("Fim de jogo\n");
+	printf("Fim de jogo.\n");
+	printf("Foram feitas %d tentativas.\n", tentativa + 1);
 }
