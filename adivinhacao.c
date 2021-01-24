@@ -26,6 +26,13 @@ int main()
 		// Mostrando ao usuário o seu chute
 		printf("Seu chute foi %d\n", chute);
 
+		if (chute < 0)
+		{
+			printf("Você não pode chutar números negativos.\n");
+			i--;
+			continue;
+		}
+
 		// Mostrando se o usuário acertou
 		int acertou = (chute == numeroSecreto);
 		int maior = (chute > numeroSecreto);
