@@ -53,5 +53,5 @@ int main() {
     // Fim de jogo
     printf("Fim de jogo.\n");
     printf("Foram feitas %d tentativas.\n", tentativa + 1);
-    printf("Total de pontos: %f\n", pontos);
+    printf("Total de pontos: %.1f\n", pontos);
 }
