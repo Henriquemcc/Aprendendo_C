@@ -4,9 +4,13 @@
 
 int main() {
     // Imprime o cabeçalho do nosso jogo
-    printf("**************************************\n");
-    printf("Bem vindo ao nosso jogo de adivinhação\n");
-    printf("**************************************\n");
+    printf("""\n          P  /_\\  P                              \n"
+           "         /_\\_|_|_/_\\                             \n"
+           "     n_n | ||. .|| | n_n         Bem vindo ao    \n"
+           "     |_|_|nnnn nnnn|_|_|     Jogo de Adivinhação!\n"
+           "    |\" \"  |  |_|  |\"  \" |                       \n"
+           "    |_____| ' _ ' |_____|                        \n"
+           "          \\__|_|__/\n\n""");
 
     // Definido o número secreto
     int segundos = time(0);
@@ -94,10 +98,28 @@ int main() {
 
     // Imprimindo mensagem de acerto
     if (acertou) {
-        printf("Parabéns! Você acertou!\n");
+        printf("""\n             OOOOOOOOOOO               \n"
+               "         OOOOOOOOOOOOOOOOOOO           \n"
+               "      OOOOOO  OOOOOOOOO  OOOOOO        \n"
+               "    OOOOOO      OOOOO      OOOOOO     \n"
+               "  OOOOOOOO  #   OOOOO  #   OOOOOOOO    \n"
+               " OOOOOOOOOO    OOOOOOO    OOOOOOOOOO   \n"
+               "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  \n"
+               "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  \n"
+               "OOOO  OOOOOOOOOOOOOOOOOOOOOOOOO  OOOO  \n"
+               " OOOO  OOOOOOOOOOOOOOOOOOOOOOO  OOOO   \n"
+               "  OOOO   OOOOOOOOOOOOOOOOOOOO  OOOO    \n"
+               "    OOOOO   OOOOOOOOOOOOOOO   OOOO     \n"
+               "      OOOOOO   OOOOOOOOO   OOOOOO      \n"
+               "         OOOOOO         OOOOOO         \n"
+               "             OOOOOOOOOOOO\n\n""");
         printf("Você acertou em %d tentativas!\n", tentativas);
         printf("Total de pontos: %.1f\n", pontos);
-    }
+    } else
+        printf("""\n       \\|/ ____ \\|/       \n"
+               "        @~/ ,. \\~@         \n"
+               "       /_( \\__/ )_\\       \n"
+               "          \\__U_/\n\n""");
 
     // Imprimindo o número secreto
     printf("O número secreto era: %d\n", numeroSecreto);
