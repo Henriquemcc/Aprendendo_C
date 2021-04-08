@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     // Imprime o cabeçalho do nosso jogo
@@ -46,7 +47,7 @@ int main() {
 
         tentativa++;
 
-        double pontosPerdidos = (double) (chute - numeroSecreto) / (double) 2;
+        double pontosPerdidos = abs(chute - numeroSecreto) / (double) 2;
         pontos -= pontosPerdidos;
     }
 
