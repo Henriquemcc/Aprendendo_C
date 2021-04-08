@@ -46,7 +46,7 @@ int main() {
 
         tentativa++;
 
-        double pontosPerdidos = (chute - numeroSecreto) / 2.0;
+        double pontosPerdidos = (double) (chute - numeroSecreto) / (double) 2;
         pontos -= pontosPerdidos;
     }
 
