@@ -2,21 +2,20 @@
 
 #include <stdio.h>
 
-int main()
-{
-	printf("Usuário, digite duas variáveis inteiras que deseja multiplicar:\n");
+int main() {
+    printf("Usuário, digite duas variáveis inteiras que deseja multiplicar:\n");
 
-	// Lendo variável X
-	printf("Variável X: ");
-	int x;
-	scanf("%d", &x);
+    // Lendo variável X
+    printf("Variável X: ");
+    int x;
+    scanf("%d", &x);
 
-	// Lendo variável Y
-	printf("Variável Y: ");
-	int y;
-	scanf("%d", &y);
+    // Lendo variável Y
+    printf("Variável Y: ");
+    int y;
+    scanf("%d", &y);
 
-	// Multiplicando as variáveis
-	int resultadoMultiplicacao = x * y;
-	printf("O resultado da multiplicação é %d.\n", resultadoMultiplicacao);
+    // Multiplicando as variáveis
+    int resultadoMultiplicacao = x * y;
+    printf("O resultado da multiplicação é %d.\n", resultadoMultiplicacao);
 }

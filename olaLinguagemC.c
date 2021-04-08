@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 
-int main()
-{
-	printf("Ola linguagem C\n");
+int main() {
+    printf("Ola linguagem C\n");
 }
