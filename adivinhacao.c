@@ -17,11 +17,38 @@ int main() {
     // Definindo a pontuação
     double pontos = 1000;
 
+    // Definindo a tentativa
+    int tentativas = 1;
+    int numeroMaximoDeTentativas;
+    int acertou = 0;
+
+    // Definindo o nível de dificuldade
+    int nivelDeDificuldade;
+    printf("Qual o nível de dificuldade?\n");
+    printf("(1) Fácil\n");
+    printf("(2) Médio\n");
+    printf("(3) Difícil\n");
+    printf("Escolha: ");
+    scanf("%d", &nivelDeDificuldade);
+
+    // Definindo o número máximo de tentativas
+    switch (nivelDeDificuldade) {
+        case 1:
+            numeroMaximoDeTentativas = 20;
+            break;
+        case 2:
+            numeroMaximoDeTentativas = 15;
+            break;
+        default:
+            numeroMaximoDeTentativas = 6;
+            break;
+    }
+
     // Recebendo os chutes do usuário
-    int tentativa = 0;
-    while (1) {
-        // Imprimindo a tentativa
-        printf("Tentativa %d.\n", tentativa + 1);
+    for (int i = 1; i <= numeroMaximoDeTentativas; i++) {
+
+        // Imprimindo o numero da tentativas
+        printf("Tentativa %d de %d.\n", tentativas, numeroMaximoDeTentativas);
 
         // Obtendo o chute do usuário
         printf("Qual é o seu chute? ");
@@ -31,32 +58,47 @@ int main() {
         // Mostrando ao usuário o seu chute
         printf("Seu chute foi %d.\n", chute);
 
+        // Imprimindo mensagem de erro caso o chute seja negativo
         if (chute < 0) {
             printf("Você não pode chutar números negativos.\n");
             continue;
         }
 
-        // Mostrando se o usuário acertou
-        int acertou = (chute == numeroSecreto);
+        // Verificando se o usuário acertou
+        acertou = (chute == numeroSecreto);
+
+        // Verificando se o chute é maior que o número secreto
         int maior = (chute > numeroSecreto);
 
-        if (acertou) {
-            printf("Parabéns! Você acertou!\n");
+        // Caso o usuário tenha acertado saindo do looping
+        if (acertou)
             break;
-        } else if (maior) {
+
+            // Exibindo uma das mensagens de erro caso o usuário não tenha acertado.
+        else if (maior)
             printf("Seu chute foi maior que o número secreto.\n");
-        } else {
+        else
             printf("Seu chute foi menor que o número secreto.\n");
-        }
 
-        tentativa++;
 
+        // Acrescentando o valor das tentativas
+        tentativas++;
+
+        // Calculando a pontuação
         double pontosPerdidos = abs(chute - numeroSecreto) / (double) 2;
         pontos -= pontosPerdidos;
     }
 
     // Fim de jogo
     printf("Fim de jogo.\n");
-    printf("Foram feitas %d tentativas.\n", tentativa + 1);
-    printf("Total de pontos: %.1f\n", pontos);
+
+    // Imprimindo mensagem de acerto
+    if (acertou) {
+        printf("Parabéns! Você acertou!\n");
+        printf("Você acertou em %d tentativas!\n", tentativas);
+        printf("Total de pontos: %.1f\n", pontos);
+    }
+
+    // Imprimindo o número secreto
+    printf("O número secreto era: %d\n", numeroSecreto);
 }
