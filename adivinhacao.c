@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main() {
     // Imprime o cabeçalho do nosso jogo
@@ -8,7 +9,10 @@ int main() {
     printf("**************************************\n");
 
     // Definido o número secreto
-    int numeroSecreto = 42;
+    int segundos = time(0);
+    srand(segundos);
+    int numeroGrande = rand();
+    int numeroSecreto = numeroGrande % 100;
 
     // Definindo a pontuação
     double pontos = 1000;
