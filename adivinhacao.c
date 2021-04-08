@@ -10,7 +10,7 @@ int main() {
     int numeroSecreto = 42;
 
     // Definindo a pontuação
-    int pontos = 1000;
+    double pontos = 1000;
 
     // Recebendo os chutes do usuário
     int tentativa = 0;
@@ -46,12 +46,12 @@ int main() {
 
         tentativa++;
 
-        int pontosPerdidos = (chute - numeroSecreto) / 2;
+        double pontosPerdidos = (chute - numeroSecreto) / 2.0;
         pontos -= pontosPerdidos;
     }
 
     // Fim de jogo
     printf("Fim de jogo.\n");
     printf("Foram feitas %d tentativas.\n", tentativa + 1);
-    printf("Total de pontos: %d\n", pontos);
+    printf("Total de pontos: %f\n", pontos);
 }
