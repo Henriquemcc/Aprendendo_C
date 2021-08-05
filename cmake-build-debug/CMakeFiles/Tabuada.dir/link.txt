@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Tabuada.dir/tabuada.c.o -o Tabuada 

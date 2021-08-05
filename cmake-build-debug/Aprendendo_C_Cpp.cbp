@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Aprendendo_C_Cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tabuada">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Tabuada" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tabuada"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Tabuada/fast">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Tabuada" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Tabuada/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SomaDosNumeros">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/SomaDosNumeros" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 SomaDosNumeros"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SomaDosNumeros/fast">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/SomaDosNumeros" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 SomaDosNumeros/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OlaLinguagem">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/OlaLinguagem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 OlaLinguagem"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OlaLinguagem/fast">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/OlaLinguagem" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 OlaLinguagem/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adivinhacao">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Adivinhacao" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Adivinhacao"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Adivinhacao/fast">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Adivinhacao" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Adivinhacao/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DesafioMultiplicacao">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/DesafioMultiplicacao" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesafioMultiplicacao"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DesafioMultiplicacao/fast">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/DesafioMultiplicacao" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 DesafioMultiplicacao/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumerosWhile">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/NumerosWhile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumerosWhile"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumerosWhile/fast">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/NumerosWhile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumerosWhile/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumerosFor">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/NumerosFor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumerosFor"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumerosFor/fast">
+				<Option output="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/NumerosFor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumerosFor/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/adivinhacao.c">
+			<Option target="Adivinhacao"/>
+		</Unit>
+		<Unit filename="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/desafioMultiplicacao.c">
+			<Option target="DesafioMultiplicacao"/>
+		</Unit>
+		<Unit filename="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/numerosFor.c">
+			<Option target="NumerosFor"/>
+		</Unit>
+		<Unit filename="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/numerosWhile.c">
+			<Option target="NumerosWhile"/>
+		</Unit>
+		<Unit filename="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/olaLinguagemC.c">
+			<Option target="OlaLinguagem"/>
+		</Unit>
+		<Unit filename="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/somaDosNumeros.c">
+			<Option target="SomaDosNumeros"/>
+		</Unit>
+		<Unit filename="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/tabuada.c">
+			<Option target="Tabuada"/>
+		</Unit>
+		<Unit filename="/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

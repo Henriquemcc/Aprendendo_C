@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/OlaLinguagem.dir/olaLinguagemC.c.o -o OlaLinguagem 

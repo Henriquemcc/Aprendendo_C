@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/DesafioMultiplicacao.dir/desafioMultiplicacao.c.o -o DesafioMultiplicacao 

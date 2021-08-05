@@ -1,0 +1,9 @@
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/Tabuada.dir
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/SomaDosNumeros.dir
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/OlaLinguagem.dir
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/Adivinhacao.dir
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/DesafioMultiplicacao.dir
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/NumerosWhile.dir
+/home/henrique/Repositorios_Git/github.com/Henriquemcc/Aprendendo_C/cmake-build-debug/CMakeFiles/NumerosFor.dir
