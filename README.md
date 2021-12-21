@@ -12,8 +12,12 @@ curso da Alura:
 
 [C I: Introdução à Linguagem das Linguagens](https://github.com/alura-cursos/C-I-Introdu-o-Linguagem-das-Linguagens/).
 
+[C II: Avançando na linguagem](https://github.com/alura-cursos/C-II-Avan-ando-na-linguagem).
+
 ## Cursos
 
 Os cursos em que estes programas foram feitos:
 
 [C I: Introdução à Linguagem das Linguagens](https://cursos.alura.com.br/course/introducao-a-programacao-com-c-parte-1).
+
+[C II: Avançando na linguagem](https://cursos.alura.com.br/course/introducao-a-programacao-com-c-parte-2).
