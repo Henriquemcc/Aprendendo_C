@@ -1,6 +1,6 @@
 [English Version](README.EN.md)
 
-# Aprendendo a programar em C
+# Aprendendo / revisando o conhecimento na Linguagem C
 
 Este repositório contém os arquivos de código-fonte dos programas em C desenvolvidos durante o curso online de C
 realizado na plataforma [Alura Cursos Online](https://alura.com.br/).

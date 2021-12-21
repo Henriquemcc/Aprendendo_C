@@ -1,6 +1,6 @@
 [Versão em Português](README.md)
 
-# Learning how to program in C
+# Learning / revising knowledge in the C language
 
 This repository contains the source code files of the C and C++ programs developed during the C course held on
 the [Alura Cursos Online](https://alura.com.br/) platform.
